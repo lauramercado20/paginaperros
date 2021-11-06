@@ -2,63 +2,108 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Clase 5</title>
+        <title>Clase 9</title>        
+        <link href="style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
+        <header class= "background1">
             <div>
-                <p>Grandes ofertas para perros</p>
-                <ul type="none">
-                    <li>Español</li>
-                    <li>$ Arg</li>
-    
-                </ul>
-            </div>
-            <div>            
-                <img src=images/Logo.png alt="Logo">
-                <nav>
-                <ul type="none">
-                    <li><a href="#">Categorías</a></li>
-                    <li><a href="#">Pets</a></li>
-                    <li><a href="#">Nosotros</a></li>
-                    <li><a href="#">Contacto</a></li>
+                <span>
+                    <p  class= "letras1" id="padd">Grandes ofertas para perros</p>
+                </span>
+                <span>
+                    <ul type="none" class="letras1" id="lista1" >
+                        <li>Español</li>
+                        <li>$ Arg</li>
+        
+                    </ul>
+                </span>
+            </div>            
+        </header>
+  
+    <section class="background2">
+        <span>
+            <img src=images/Logo.png alt="Logo">
+        </span>            
+        <span>
+            <nav>
+                <ul id="iconoslist">
+                    <li><a style="text-decoration: none" href="#" class="letras3" >Categorías</a></li>
+                    <li><a style="text-decoration: none" href="#" class="letras3">Pets</a></li>
+                    <li><a style="text-decoration: none" href="#" class="letras3">Nosotros</a></li>
+                    <li><a style="text-decoration: none" href="#" class="letras3">Contacto</a></li>
                 </ul>
                 </nav>
-            </div>
+        </span>
 
+    </section>
+    <section class="background3">
+        
+        <span id="caja"><p id="caja1">¡Es un placer tenerte aquí! </p></span>
+        <p id="textos1">¡Comederos en descuento!</p>
+        <h3 id="caja2"><a>COMEDEROS</a></h3>
 
-        </header>
-    <hr/>
-        <div>
-            <img src=images/foto.png alt="foto principal">
-            <h2>¡Es un placer tenerte aquí! </h2>
-            <p>¡Comederos en descuento!</p>
-            <h3><a>COMEDEROS</a></h3>
-        </div>
-        <div>
-            <img src=images/huella.png alt="huella">
-            <h1>Productos Destacados </h1>
-            <span>Comedores</span>
-            <span>Accesorios</span>
+    </section>
+    <section  style="text-align: center";>
+        <p><img src=images/huella.png alt="huella"></p>
+        <h1>Productos Destacados </h1>
+        <section id="textos3">         
+            <span>Comedores-</span>
+            <span>Accesorios-</span>
             <span>Comida</span>
-        </div>
-        <section>
-            <img src=images/carne.png alt="carne">
-            <h4>Juguete Churrasquito </h4>
-            <p>$150</p>
-        </section>
-        <section>
-            <img src=images/comida.png alt="carne">
-            <h4>Juguete Churrasquito </h4>
-            <p>$150</p>
-        </section>
-        <section>
-            <img src=images/Huesito.png alt="carne">
-            <h4>Juguete Churrasquito </h4>
-            <p>$150</p>
         </section>
 
-        <hr/>
+    </section>
+
+        <div>
+
+        </div>
+        <section>
+            <span >
+                <section id="caja4">
+                    <img src=images/carne.png alt="carne">
+                    <section>                    
+                        <p id="subcaja4">Juguete Churrasquito </p>
+                        <p>$150</p>
+                    </section>
+
+                </section>
+            </span>
+            <span>
+                <section id="caja5">
+                    <img src=images/comida.png alt="carne">
+                    <p id="subcaja5">Juguete Churrasquito </p>
+                    <p>$150</p>
+                </section>
+
+            </span> 
+
+            <section id="caja6">
+                <img src=images/Huesito.png alt="carne">
+                <p id="subcaja6">Juguete Churrasquito </p>
+                <p>$150</p>
+            </section>
+
+        </section>
+        <section class="background4" >
+            <section  id="locacion" >
+                <span>
+                    <p><i class="fas fa-map-marker-alt"></i></p>
+                </span>
+                <span>
+                    <p>localidad</p>
+                    <p></p>
+    
+                </span>
+            </section>
+
+        </section>
+
+
         <footer style="text-align:center;">Todos los derechos reservados FrontEnd.</footer>
     </body>
 </html>

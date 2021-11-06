@@ -1,0 +1,212 @@
+.background1{
+    background-color: #222222;
+    width: 1025px;
+}
+.letras1{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+color: #F3F3F3;
+}
+#padd{
+    padding-left: 90px
+}
+#iconoslist{
+    list-style-image: url("images/pawprint 1.png")
+}
+.background2{
+    margin-top: -10px;
+    background-color: #F0A83E;
+    width: 1025px;
+}
+.letras3{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 12px;
+color: #F3F3F3;
+}
+.background3{
+    margin-top: -20px;
+    background-image: url("images/foto1.png");
+    width: 1025px;
+height: 409px;
+}
+#caja{ 
+    position: absolute;
+width: 365px;
+height: 54px;
+left: 648px;
+top: 237px;
+    width: 345px;
+height: 35px;
+
+
+    
+}
+#caja1{
+    background-color: white;
+    width: 345px;
+height: 35px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+}
+#textos1{
+    position: absolute;
+width: 190px;
+height: 19px;
+left: 740px;
+top: 303px;
+
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+
+text-align: center;
+
+color: #3C2313;
+}
+#caja2{
+    position: absolute;
+    width: 141px;
+    height: 20px;
+    left: 767px;
+    top: 334px;
+    
+    background: #F0A83E;
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+color: white;
+
+text-align: center;
+}
+h1{
+    
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 47px;
+color: #3C2313;
+}
+#textos3{
+    
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+
+color: #666666;
+}
+#caja4{
+    position: absolute;
+width: 265px;
+height: 312px;
+left: 95px;
+top: 820px;
+
+background: #FBFAF6;
+}
+#subcaja4{
+    position: absolute;
+width: 160.54px;
+height: 19.64px;
+left: 20%;
+top: 70%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+
+color: #3C2313;
+}
+#caja5{
+    position: absolute;
+    width: 264px;
+    height: 312px;
+    left: 380px;
+    top: 820px;
+    
+    background: #FBFAF6;
+}
+#subcaja5{
+    position: absolute;
+width: 160.54px;
+height: 19.64px;
+left: 20%;
+top: 70%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+
+color: #3C2313;
+}
+#caja6{
+    position: absolute;
+    width: 264px;
+    height: 312px;
+    left: 664px;
+    top: 820px;
+    
+    background: #FBFAF6;
+}
+#subcaja6{
+    position: absolute;
+width: 160.54px;
+height: 19.64px;
+left: 20%;
+top: 70%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+
+color: #3C2313;
+}
+.background4{
+    background: #3C2313;
+    position: absolute;
+    width: 1044px;
+    height: 284px;
+    left:-20px;
+    top: 1200px;
+}
+#locacion{
+    position: absolute;
+    font-size: 20px;
+    font-family: Roboto;
+    color:white;
+left: 30px;
+}
+
+footer{
+    position: absolute;
+width: 1024px;
+height: 20px;
+left:0px;
+top: 1480px;
+
+background: #222222;
+color:white;
+font-family: Roboto;
+}
