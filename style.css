@@ -1,14 +1,37 @@
+body{
+    margin: 0px;
+    width: 100vw ;
+    height: 100vh;
+    background-color: white;
+}
+header{
+    margin:0;
+
+}
 .background1{
     background-color: #222222;
-    width: 1025px;
+    width: 100vw;
 }
-.letras1{
+.header1{
+    display: flex;
+    justify-content: space-between;
+}
+.lista1{
+    display: flex;
+    flex-direction: row;
+}
+#letras1{
     font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 10px;
-line-height: 12px;
+padding: 4px 3vw;
 color: #F3F3F3;
+}
+.background2{
+    margin: 0;
+    background-color: #F0A83E;
+    width: 100vw;
 }
 #padd{
     padding-left: 90px
@@ -16,81 +39,84 @@ color: #F3F3F3;
 #iconoslist{
     list-style-image: url("images/pawprint 1.png")
 }
-.background2{
-    margin-top: -10px;
-    background-color: #F0A83E;
-    width: 1025px;
+.navegacion{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 2vh 0vh;
+    
+}
+
+.logo{
+    display: flex;
+    padding-left: 4vh;
+}
+.listanav{
+    display: flex;
+    justify-content: space-around;
+    
+
 }
 .letras3{
     font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 13px;
-line-height: 12px;
 color: #F3F3F3;
+
+margin-right: 3vw;
+
 }
 .background3{
-    margin-top: -20px;
+    
     background-image: url("images/foto1.png");
-    width: 1025px;
-height: 409px;
+    width: 100vw;
+    background-size: cover;
+height: 75vh;
 }
-#caja{ 
-    position: absolute;
-width: 365px;
-height: 54px;
-left: 648px;
-top: 237px;
-    width: 345px;
-height: 35px;
-
+.caja{ 
+display: flex;
+justify-content: flex-end;
+padding: 20vh;
 
     
 }
 #caja1{
     background-color: white;
-    width: 345px;
-height: 35px;
-
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 30px;
     line-height: 35px;
+    padding: 10px;
+    border-radius: 5px;
 }
 #textos1{
-    position: absolute;
-width: 190px;
-height: 19px;
-left: 740px;
-top: 303px;
-
-    font-family: Roboto;
+font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
 line-height: 19px;
 
-text-align: center;
-
 color: #3C2313;
 }
 #caja2{
-    position: absolute;
-    width: 141px;
-    height: 20px;
-    left: 767px;
-    top: 334px;
+padding: 23px 15px;
     
     background: #F0A83E;
     font-family: Roboto;
-font-style: normal;
+font-style:normal;
 font-weight: normal;
 font-size: 16px;
 line-height: 19px;
 color: white;
 
 text-align: center;
+}
+#cajac{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 h1{
     
@@ -102,7 +128,8 @@ line-height: 47px;
 color: #3C2313;
 }
 #textos3{
-    
+display: flex;
+justify-content: center;    
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
@@ -111,21 +138,18 @@ line-height: 18px;
 
 color: #666666;
 }
-#caja4{
-    position: absolute;
-width: 265px;
-height: 312px;
-left: 95px;
-top: 820px;
+.caja4{
+
+   
+text-align: center;
 
 background: #FBFAF6;
 }
-#subcaja4{
-    position: absolute;
-width: 160.54px;
-height: 19.64px;
-left: 20%;
-top: 70%;
+.cajaco{
+    display: flex;
+    justify-content: space-around;
+}
+h4{
 
 font-family: Roboto;
 font-style: normal;
@@ -135,76 +159,50 @@ line-height: 18px;
 
 color: #3C2313;
 }
-#caja5{
-    position: absolute;
-    width: 264px;
-    height: 312px;
-    left: 380px;
-    top: 820px;
-    
-    background: #FBFAF6;
-}
-#subcaja5{
-    position: absolute;
-width: 160.54px;
-height: 19.64px;
-left: 20%;
-top: 70%;
-
-font-family: Roboto;
+h5{
+    font-family: Roboto;
 font-style: normal;
-font-weight: 500;
 font-size: 15px;
+font-weight: lighter;
 line-height: 18px;
 
-color: #3C2313;
-}
-#caja6{
-    position: absolute;
-    width: 264px;
-    height: 312px;
-    left: 664px;
-    top: 820px;
-    
-    background: #FBFAF6;
-}
-#subcaja6{
-    position: absolute;
-width: 160.54px;
-height: 19.64px;
-left: 20%;
-top: 70%;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 18px;
-
-color: #3C2313;
+color: #F0A83E;
 }
 .background4{
     background: #3C2313;
-    position: absolute;
-    width: 1044px;
-    height: 284px;
-    left:-20px;
-    top: 1200px;
+    width: 100vw;
+    height: 40vh;
+    margin: 10vh 0vw 0;
 }
 #locacion{
-    position: absolute;
     font-size: 20px;
     font-family: Roboto;
     color:white;
-left: 30px;
+    margin: 2px;
+}
+#loc1{
+    font-family: Roboto;
+font-style: normal;
+font-size: 10px;
+padding-left: 30px;
+color: #8A8787;
+}
+.flex2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.flex3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0vh 2vw;
 }
 
 footer{
-    position: absolute;
-width: 1024px;
-height: 20px;
-left:0px;
-top: 1480px;
+width: 100vw;
+height: 5vh;
 
 background: #222222;
 color:white;
